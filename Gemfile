@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 group :fastlane do
   gem 'fastlane'
-  gem 'cocoapods'
+  gem 'cocoapods', '>= 1.11.0'
   gem 'xcodeproj'
 end
 
