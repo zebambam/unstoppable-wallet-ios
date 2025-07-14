@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
 group :fastlane do
-  gem 'fastlane'
-  gem 'cocoapods'
+  gem 'fastlane', '>= 2.142.0'
+  gem 'cocoapods', '>= 1.11.0'
   gem 'xcodeproj'
 end
 
